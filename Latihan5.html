@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pertemuan 4 - Latihan Javascript Latihan 2</title>
+  </head>
+  <body>
+    <form action="" name="form1" method="post">
+      Nama : <input type="text" name="txtNama" id="txtNama_Depan" />
+    </form>
+    <a
+      href="#"
+      onClick="window.document.forms['form1'].txtNama.value='Hierarchy'"
+    >
+      Hierarchy Way
+    </a>
+    -
+    <a
+      href="#"
+      onClick="document.getElementById('txtNama_Depan').value='Direct'"
+    >
+      Direct Way
+    </a>
+  </body>
+</html>
